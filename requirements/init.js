@@ -5,8 +5,6 @@
 *   System auf Richtigkeit Überprüfen
 * */
 
-/* TODO REMOVE IT */ console.info("DEBUG: init.js Loaded");
-
 let computer = {
     ram: 0,
     cpu: "",
@@ -44,6 +42,13 @@ function config(setting) {
 function setupSystem() {
     /*
     * TODO
-    *   FILL IT localstorage and Variables from User-inputs
+    *   Localstorage names
+    *   RAM = PCSPEC_RAM
+    *   CPU = PCSPEC_CPU
+    *   motherboard = PCSPEC_MOTHERBOARD
+    *   PC = PC here add is "Hardware" valid then is true
+    *   errors = Errormessages
+    *   SYSTEM = add true if system Valid
+    *   Status = display Information if System started / crashed or booting
     * */
 }
